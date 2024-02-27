@@ -1,0 +1,25 @@
+div.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+div.grid{
+    width:200px;
+    height:200px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blanchedalmond;
+    border-style: solid;
+}
+div.grid div{
+    width:20px;
+    height:20px;
+    /* border:1px solid black; */
+}
+.snake{
+    background-color: rgb(3, 110, 49);
+}
+.apple{
+    background-color: red;
+}
